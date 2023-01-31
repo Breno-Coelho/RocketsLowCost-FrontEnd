@@ -15,12 +15,19 @@ input, button, a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.container {
+input {
+    border-width: 20px;
+}
+
+.containerLogin {
     width: 100vw;
     height: 100vh;
-    background: #dfe8f1;
+    background: #f8f8f8;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,22 +38,21 @@ input, button, a {
 
 .cardLogin{
 
-    width: 40vw;
+    width: 35vw;
     height: 70vh;
     background-color: #cccecc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 
 .submitName, .inputName {
     width: 80%;
     height: 23%;
-    
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 40px;
 
 }

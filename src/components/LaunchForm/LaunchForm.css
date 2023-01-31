@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+.formLaunch{
+    width: 40vw;
+    height: 70vh;
+    background-color: #cccecc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.inputData, .inputLucro, .submitLaunch {
+    width: 80%;
+    height: 23%;
+    
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+
+.submitLaunch{
+    background-color: rgb(116, 219, 96);
+}
+
+
+

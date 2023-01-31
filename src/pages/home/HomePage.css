@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem {
+
+    margin-top: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.inner {
+    display: flex;
+}
+
+.item {
+   min-height: 200px;
+   min-width: 400px;
+   padding: 14px; 
+}
+
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+
+
+
+

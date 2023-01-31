@@ -29,7 +29,7 @@ input, button, a {
 }
 
 
-.cardLogin{
+.cardCheck{
 
     width: 40vw;
     height: 70vh;
@@ -53,6 +53,10 @@ input, button, a {
 
 .submitName{
     background-color: rgb(116, 219, 96);
+}
+
+.age{
+    padding: 80px;
 }
 
 
